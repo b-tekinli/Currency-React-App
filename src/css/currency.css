@@ -1,0 +1,38 @@
+.currency-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+    width: 700px;
+    height: 300px;
+    border: 1px dashed black;
+}
+
+.amount {
+    width: 80px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.result {
+    width: 80px;
+    height: 35px;
+}
+
+.from-currency-option, .to-currency-option {
+    width: 70px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: #ff0000;
+    color: #ffffff;
+    width: 90px;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 9px;
+    border: none;
+    cursor: pointer;
+}
